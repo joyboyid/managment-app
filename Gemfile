@@ -32,7 +32,13 @@ gem "redis", "~> 4.0"
 
 # Use Kredis to get higher-level data types in Redis [https://github.com/rails/kredis]
 # gem "kredis"
-
+gem 'bulma-rails', '~> 0.9.3'
+gem 'devise', '~> 4.8', '>= 4.8.1'
+gem 'simple_form', '~> 5.1'
+gem 'gravatar_image_tag', '~> 1.2'
+gem 'wysiwyg-rails', '~> 4.0', '>= 4.0.14'
+gem 'jquery-rails', '~> 4.5'
+gem 'public_activity', '~> 2.0', '>= 2.0.2'
 # Use Active Model has_secure_password [https://guides.rubyonrails.org/active_model_basics.html#securepassword]
 # gem "bcrypt", "~> 3.1.7"
 
@@ -59,7 +65,12 @@ group :development do
 
   # Add speed badges [https://github.com/MiniProfiler/rack-mini-profiler]
   # gem "rack-mini-profiler"
-
+  gem 'better_errors', '~> 2.9', '>= 2.9.1'
+  gem 'spring', '~> 2.0'
+  gem 'listen',  '3.7.1'
+  gem 'spring-watcher-listen', '2.0.1'
+  gem 'guard', '~> 2.18'
+  gem 'guard-livereload', '~> 2.5', '>= 2.5.2'
   # Speed up commands on slow machines / big apps [https://github.com/rails/spring]
   # gem "spring"
 end
